@@ -1,6 +1,6 @@
 ---
 layout: home
 title: Sulagna Saha Rasha
-heading: Sulagna's Blog
+heading: <em> Sulagna Saha Rasha </em>
 description: Here's where I write what I learn
 ---

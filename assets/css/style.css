@@ -16,14 +16,29 @@
 
       font-weight: inherit;
       font-style: normal;
+
+      /* Add the following styles */
+      font-size: 45px; /* Adjust the font size as desired */
+      margin-top: 40px; /* Adjust the margin-top value to move it down */
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 80%; /* Adjust the max-width value as desired */
     }
   }
+
   .logo {
     h2 {
       strong {
         @apply text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-2;
         font-weight: inherit;
         font-style: normal;
+
+        /* Add the following styles */
+        font-size: 45px; /* Adjust the font size as desired */
+        margin-top: 40px; /* Adjust the margin-top value to move it down */
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 80%; /* Adjust the max-width value as desired */
       }
     }
   }
@@ -31,4 +46,63 @@
 
 body {
   background-color: #ddcdfa;
+}
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px; /* Increase the value to add more space between icons */
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease-out;
+}
+
+.navbar a i {
+  font-size: 24px;
+  transition: all 0.3s ease-out;
+}
+
+.navbar a:hover {
+  color: black;
+}
+.navbar a::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  white-space: nowrap; /* Add this line to prevent wrapping of text */
+}
+
+.navbar a:hover i {
+  opacity: 0;
+}
+
+.navbar a:hover:after {
+  opacity: 1;
+  visibility: visible;
 }
