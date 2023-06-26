@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Behind the Code: Developing a Gem Library for Wikidata Analysis"
+title: "Behind the Code: Lessons from Building a Ruby Gem Library"
 date: 2023-06-26T8:26:40+6:00
 authors: ["Sulagna Saha"]
 categories: ["Open Source"]
