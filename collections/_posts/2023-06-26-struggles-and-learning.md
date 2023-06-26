@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Struggles & Lessons in my current project"
-date: 2023-06-26T10:26:40+6:00
+date: 2023-06-26T8:26:40+6:00
 authors: ["Sulagna Saha"]
 categories: ["Open Source"]
 tags: ["Writing"]
