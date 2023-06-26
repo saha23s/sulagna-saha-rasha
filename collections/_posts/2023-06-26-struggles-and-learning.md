@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Struggles & Lessons in my current project"
+title: "Behind the Code: Developing a Gem Library for Wikidata Analysis"
 date: 2023-06-26T8:26:40+6:00
 authors: ["Sulagna Saha"]
 categories: ["Open Source"]
@@ -10,7 +10,7 @@ description: What I have learnt last month
 
 ### **What my project is about**
 
-Before jumping into the point of struggle, I want to give a short introduction to the project I am working on. I am working on creating a Ruby Gem Library from scratch for analyzing Wikidata edits. **Wikidata** acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others.
+Before jumping into the point of struggle in development, I want to give a short introduction to the project I am working on. I am working on creating a Ruby Gem Library from scratch for analyzing Wikidata edits. **Wikidata** acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others.
 
 When I first read my project goal, I never knew about gem libraries in detail and how to create one. In short, if you have a project working with Wikidata, you can install the gem I am creating with `gem install` command. Basically, you will give an array of revision ids to analyze and the functions in Gem are responsible to provide you with correct statistics of every revision compared to its parent revision. When a Wikidata item is edited, you can add, remove or change a lot of things. My job is comparing the JSON representations of the edits and writing code to detect the differences, count the total number of changes, and return the statistics to you.
 
@@ -46,6 +46,6 @@ To combat this, I've begun to keep a log of my actions, which has proven to be c
 
 In the initial weeks, I struggled to clarify my daily and weekly tasks. This lack of clarity led to procrastination and demotivation. While the project has a clear ultimate goal, breaking it down into actionable daily steps was necessary, considering the flexibility of my focus.
 
-I realized that it's not just about working on a project; periodic retrospection and planning are equally essential. Now, every Friday, I reflect on my progress during the week and plan for the following week. I use Fridays to write or read blogs and make decisions. Setting aside a day for these activities has noticeably boosted my productivity. Besides, reading the proposal and thinking about big pictures also makes me appreciating my efforts.
+I realized that it's not just about working on a project; periodic retrospection and planning are equally essential. Now, every Friday, I reflect on my progress during the week and plan for the following week. I use Fridays to write or read blogs and make decisions. Setting aside a day for these activities has noticeably boosted my productivity. Besides, reading the proposal and thinking about big picture also makes me appreciate my efforts.
 
 In sum, while there's still much to learn and many ways to refine my learning process, writing about these points has given me a greater understanding of my missteps and has motivated me to keep moving forward.
