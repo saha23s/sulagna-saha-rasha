@@ -5,16 +5,16 @@ date: 2023-07-22T11:26:40+6:00
 authors: ["Sulagna Saha"]
 categories: ["Open Source"]
 tags: ["Writing"]
-description: Things to keep on mind
+description: Lessons I am carrying with me from my project
 ---
 
-**Writing 2000 Lines of Code**
+**Writing almost 2000 Lines of Code**
 
-Writing 2000 lines of code used to seem to be just about a large number. But in reality, it's more about the challenge of building this project by myself.
+I never had thought of estimating how many lines of code I have contributed until I was asked in an interview. This project provided me with the opportunity to have an experience to mention in an interview that "Yeah, see, I have coded a lot!"
 
-This was a new experience for me and taught me two important lessons:
+Jokes apart, this was a new experience for me and taught me two important lessons:
 
-- _Sticking to a routine_: Writing code every day and keeping the patience to slowly improve it is important for such big tasks.
+- _Sticking to a routine_: Writing code every day and keeping the patience to slowly improve it is important for such tasks.
 - _Keeping things organized_: By arranging files neatly, the code becomes easier for others to understand, which can help with teamwork.
 
 **Learning About Test Driven Development (TDD)**
